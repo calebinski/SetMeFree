@@ -23,5 +23,7 @@ namespace SetMeFree.Data
         public DbSet<GroomingSteps> GroomingSteps { get; set; }
         public DbSet<GroomingStepAnswer> GroomingStepAnswers { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<TrustworthyPerson> TrustworthyPerson { get; set; }
+        public DbSet<TrustworthyPersonAnswer> TrustworthyPersonAnswers { get; set; }
     }
 }

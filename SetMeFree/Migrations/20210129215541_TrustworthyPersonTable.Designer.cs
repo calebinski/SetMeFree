@@ -2,21 +2,23 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SetMeFree.Data;
 
 namespace SetMeFree.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20210129215541_TrustworthyPersonTable")]
+    partial class TrustworthyPersonTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.2");
+                .HasAnnotation("ProductVersion", "5.0.1");
 
             modelBuilder.Entity("SetMeFree.Models.GroomingStepAnswer", b =>
                 {
@@ -151,24 +153,6 @@ namespace SetMeFree.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("TrustworthyPerson");
-                });
-
-            modelBuilder.Entity("SetMeFree.Models.TrustworthyPersonAnswer", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Answer")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DateTimeAnswered")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("TrustworthyPersonAnswers");
                 });
 
             modelBuilder.Entity("SetMeFree.Models.User", b =>

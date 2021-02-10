@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caleb\\source\\repos\\SetMeFree\\SetMeFree\\SetMeFree.csproj": {}
+    "C:\\Users\\caleb\\source\\repos\\SetMeFree\\setmefree\\SetMeFree.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caleb\\source\\repos\\SetMeFree\\SetMeFree\\SetMeFree.csproj": {
+    "C:\\Users\\caleb\\source\\repos\\SetMeFree\\setmefree\\SetMeFree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\SetMeFree\\SetMeFree.csproj",
+        "projectUniqueName": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\setmefree\\SetMeFree.csproj",
         "projectName": "SetMeFree",
-        "projectPath": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\SetMeFree\\SetMeFree.csproj",
+        "projectPath": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\setmefree\\SetMeFree.csproj",
         "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\SetMeFree\\obj\\",
+        "outputPath": "C:\\Users\\caleb\\source\\repos\\SetMeFree\\setmefree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -46,14 +46,14 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.1, )",
+              "version": "[5.0.2, )",
               "noWarn": [
                 "NU1605"
               ]
             },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[5.0.1, )",
+              "version": "[5.0.2, )",
               "noWarn": [
                 "NU1605"
               ]
@@ -64,21 +64,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
