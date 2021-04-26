@@ -31,7 +31,7 @@ namespace SetMeFree
             //enable cors
             services.AddCors(options => {
                 options.AddDefaultPolicy(builder => {
-                    builder.WithOrigins("http://localhost:8100").AllowAnyHeader().AllowAnyMethod();
+                    builder.WithOrigins("https://setmefreesite.azurewebsites.net").AllowAnyHeader().AllowAnyMethod();
                 });
             });
 
